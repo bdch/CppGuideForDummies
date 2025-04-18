@@ -1,0 +1,5 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/Playground_exec_1.dir/unit_1/playground_1.cpp.obj: dyndep
+
+build CMakeFiles/Playground_exec_1.dir/unit_1/Namespaces.cpp.obj: dyndep
+
