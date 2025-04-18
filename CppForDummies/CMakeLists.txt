@@ -11,3 +11,8 @@ add_executable(Playground_exec_1
         unit_1/playground_1.cpp
         unit_1/Namespaces.cpp
 )
+
+add_executable(Playground_exec_2
+        unit_2/playground_2.cpp
+)
+
