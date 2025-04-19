@@ -1,3 +1,5 @@
 ninja_dyndep_version = 1.0
 build CMakeFiles/C_C__.dir/main.cpp.obj: dyndep
 
+build CMakeFiles/C_C__.dir/unit_1/Namespaces.cpp.obj: dyndep
+

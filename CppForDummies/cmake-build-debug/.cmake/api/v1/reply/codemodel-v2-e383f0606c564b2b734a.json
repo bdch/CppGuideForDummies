@@ -16,7 +16,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -32,7 +33,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -50,6 +52,13 @@
 					"id" : "Playground_exec_1::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Playground_exec_1-Debug-694e6b67cd0828fd7634.json",
 					"name" : "Playground_exec_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Playground_exec_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Playground_exec_2-Debug-aad8b4f959c38f0a90c2.json",
+					"name" : "Playground_exec_2",
 					"projectIndex" : 0
 				}
 			]
