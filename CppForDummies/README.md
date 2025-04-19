@@ -15,3 +15,7 @@ But there also will be deviations from this structure, as I will be adding.
     - Control questions
 
 - [Unit 2](unit_2/README.md)
+  - Unified initialization
+  - Automatic type deduction with `auto` and `decltype`
+  - Operators
+  - Control questions

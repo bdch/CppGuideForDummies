@@ -122,3 +122,19 @@ Here are some operators that are unique to C++ and are not found in other langua
 | `*`              | `cout << *p; `                         | Return the `value` that is stored at that address, in short: 'What lies there?'                                  |
 | `new` & `delete` | `int* ptr = new int;` &  `delete ptr;` | Memory management -> allocate memory with `new`, deallocate memory with `delete`, kinda like `malloc` and `free` |
 | `<<` & `>>`      | `cout << y` & `cin >> name;`           | *Pushes* things in / out to / from a data-stream, the `>>` can be imagined like a `Scanner` in Java              |
+
+## Control Questions
+
+What is `auto` even used for?
+
+- `auto` is used to let the compiler deduce the type of a variable. It is useful when you don't want to specify the type
+  explicitly.
+
+Why should global variables be avoided?
+
+- Global variables should be avoided because they can lead to code that is difficult to understand and maintain. They
+  can also cause naming conflicts and make it hard to track down bugs.
+
+What is the difference between a *head-centered* for loop and a *tail-centered* for loop?
+- A head-centered for loop is a loop that starts at the beginning of the range and goes to the end. A tail-centered for
+  loop is a loop that starts at the end of the range and goes to the beginning.

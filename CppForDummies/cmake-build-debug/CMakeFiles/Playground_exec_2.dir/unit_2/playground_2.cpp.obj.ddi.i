@@ -46527,21 +46527,26 @@ namespace std
 }
 # 4 "C:/Users/Lingling/Desktop/IT/Programs/C C++/CppForDummies/unit_2/playground_2.cpp" 2
 
-# 4 "C:/Users/Lingling/Desktop/IT/Programs/C C++/CppForDummies/unit_2/playground_2.cpp"
+# 1 "C:/Users/Lingling/Desktop/IT/Programs/C C++/CppForDummies/unit_2/Solution.h" 1
+# 10 "C:/Users/Lingling/Desktop/IT/Programs/C C++/CppForDummies/unit_2/Solution.h"
+
+# 10 "C:/Users/Lingling/Desktop/IT/Programs/C C++/CppForDummies/unit_2/Solution.h"
+class Solution
+{
+public:
+    static void fn(int a, int b);
+    static void loop();
+    static void isEven();
+};
+# 6 "C:/Users/Lingling/Desktop/IT/Programs/C C++/CppForDummies/unit_2/playground_2.cpp" 2
 using namespace std;
 
 int main()
 {
-    string s(2, 'a');
-    cout << s << endl;
-    string ss{'2', 'a'};
-    cout << ss << endl;
+    constexpr int a = 5;
+    constexpr int b = 10;
+    Solution::fn(a, b);
 
-    int x = 2;
-    auto y = x;
-    cout << typeid(y).name() << endl;
-
-    int z = 3;
-    decltype(z) m = 3;
-    cout << typeid(m).name() << endl;
+    Solution::loop();
+    Solution::isEven();
 }

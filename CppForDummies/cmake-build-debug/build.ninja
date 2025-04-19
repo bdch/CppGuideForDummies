@@ -182,7 +182,22 @@ build CMakeFiles/Playground_exec_2.dir/unit_2/playground_2.cpp.obj: CXX_COMPILER
   OBJECT_FILE_DIR = CMakeFiles\Playground_exec_2.dir\unit_2
   dyndep = CMakeFiles/Playground_exec_2.dir/CXX.dd
 
-build CMakeFiles/Playground_exec_2.dir/CXX.dd | C$:/Users/Lingling/Desktop/IT/Programs/C$ C++/CppForDummies/cmake-build-debug/CMakeFiles/Playground_exec_2.dir/CXXModules.json CMakeFiles/Playground_exec_2.dir/unit_2/playground_2.cpp.obj.modmap: CXX_DYNDEP__Playground_exec_2_Debug CMakeFiles/Playground_exec_2.dir/unit_2/playground_2.cpp.obj.ddi | C$:/Users/Lingling/Desktop/IT/Programs/C$ C++/CppForDummies/cmake-build-debug/CMakeFiles/Playground_exec_2.dir/CXXDependInfo.json
+build CMakeFiles/Playground_exec_2.dir/unit_2/Solution.cpp.obj.ddi: CXX_SCAN__Playground_exec_2_Debug C$:/Users/Lingling/Desktop/IT/Programs/C$ C++/CppForDummies/unit_2/Solution.cpp || cmake_object_order_depends_target_Playground_exec_2
+  DEP_FILE = CMakeFiles\Playground_exec_2.dir\unit_2\Solution.cpp.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\Playground_exec_2.dir\unit_2\Solution.cpp.obj.ddi
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJ_FILE = CMakeFiles\Playground_exec_2.dir\unit_2\Solution.cpp.obj
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles\Playground_exec_2.dir\unit_2\Solution.cpp.obj.ddi.i
+
+build CMakeFiles/Playground_exec_2.dir/unit_2/Solution.cpp.obj: CXX_COMPILER__Playground_exec_2_scanned_Debug C$:/Users/Lingling/Desktop/IT/Programs/C$ C++/CppForDummies/unit_2/Solution.cpp | CMakeFiles/Playground_exec_2.dir/unit_2/Solution.cpp.obj.modmap || cmake_object_order_depends_target_Playground_exec_2 CMakeFiles/Playground_exec_2.dir/CXX.dd
+  DEP_FILE = CMakeFiles\Playground_exec_2.dir\unit_2\Solution.cpp.obj.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles\Playground_exec_2.dir\unit_2\Solution.cpp.obj.modmap
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Playground_exec_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Playground_exec_2.dir\unit_2
+  dyndep = CMakeFiles/Playground_exec_2.dir/CXX.dd
+
+build CMakeFiles/Playground_exec_2.dir/CXX.dd | C$:/Users/Lingling/Desktop/IT/Programs/C$ C++/CppForDummies/cmake-build-debug/CMakeFiles/Playground_exec_2.dir/CXXModules.json CMakeFiles/Playground_exec_2.dir/unit_2/playground_2.cpp.obj.modmap CMakeFiles/Playground_exec_2.dir/unit_2/Solution.cpp.obj.modmap: CXX_DYNDEP__Playground_exec_2_Debug CMakeFiles/Playground_exec_2.dir/unit_2/playground_2.cpp.obj.ddi CMakeFiles/Playground_exec_2.dir/unit_2/Solution.cpp.obj.ddi | C$:/Users/Lingling/Desktop/IT/Programs/C$ C++/CppForDummies/cmake-build-debug/CMakeFiles/Playground_exec_2.dir/CXXDependInfo.json
 
 
 # =============================================================================
@@ -192,7 +207,7 @@ build CMakeFiles/Playground_exec_2.dir/CXX.dd | C$:/Users/Lingling/Desktop/IT/Pr
 #############################################
 # Link the executable Playground_exec_2.exe
 
-build Playground_exec_2.exe: CXX_EXECUTABLE_LINKER__Playground_exec_2_Debug CMakeFiles/Playground_exec_2.dir/unit_2/playground_2.cpp.obj
+build Playground_exec_2.exe: CXX_EXECUTABLE_LINKER__Playground_exec_2_Debug CMakeFiles/Playground_exec_2.dir/unit_2/playground_2.cpp.obj CMakeFiles/Playground_exec_2.dir/unit_2/Solution.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Playground_exec_2.dir

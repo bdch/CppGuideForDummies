@@ -14,5 +14,7 @@ add_executable(Playground_exec_1
 
 add_executable(Playground_exec_2
         unit_2/playground_2.cpp
+        unit_2/Solution.cpp
+        unit_2/Solution.h
 )
 
