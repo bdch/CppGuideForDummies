@@ -1,0 +1,38 @@
+# ninja log v6
+6	553	7666745355421926	CMakeFiles/C_C__.dir/main.cpp.obj.ddi	8f8559e6ca3af767
+187	624	7667671896918783	CMakeFiles/Playground_exec_2.dir/unit_2/Solution.cpp.obj	ad5d66e14f1cc101
+176	588	7668472511810903	CMakeFiles/Playground_exec_2.dir/unit_2/playground_2.cpp.obj	71205157f3603a61
+6	29	7668496693787219	CMakeFiles/C_C__.dir/CXX.dd	427620ab4c6f6c7a
+6	29	7668496693787219	C:/Users/Lingling/Desktop/IT/Programs/C C++/CppForDummies/cmake-build-debug/CMakeFiles/C_C__.dir/CXXModules.json	427620ab4c6f6c7a
+6	29	7668496693787219	CMakeFiles/C_C__.dir/main.cpp.obj.modmap	427620ab4c6f6c7a
+580	1119	7666745361165024	CMakeFiles/C_C__.dir/main.cpp.obj	422b610785a51fa5
+30	135	7668494743037709	C_C__.exe	b0b09bf040019247
+7	150	7666793852488408	CMakeFiles/Playground_exec_1.dir/unit_1/playground_1.cpp.obj.ddi	b381c06745641f1b
+2	234	7671913912810933	build.ninja	e558e20680724ec4
+150	175	7668472511560666	C:/Users/Lingling/Desktop/IT/Programs/C C++/CppForDummies/cmake-build-debug/CMakeFiles/Playground_exec_2.dir/CXXModules.json	e1f89817081bc134
+151	172	7666793853927454	CMakeFiles/Playground_exec_1.dir/CXX.dd	c8f72c4a88d2c0f2
+151	172	7666793853927454	C:/Users/Lingling/Desktop/IT/Programs/C C++/CppForDummies/cmake-build-debug/CMakeFiles/Playground_exec_1.dir/CXXModules.json	c8f72c4a88d2c0f2
+151	172	7666793853927454	CMakeFiles/Playground_exec_1.dir/unit_1/playground_1.cpp.obj.modmap	c8f72c4a88d2c0f2
+173	555	7666793854144612	CMakeFiles/Playground_exec_1.dir/unit_1/playground_1.cpp.obj	e13e4177dd25ea79
+5	140	7666787087381516	CMakeFiles/Playground_exec_1.dir/unit_1/Namespaces.cpp.obj.ddi	49918247ebdcd6de
+151	172	7666793853927454	CMakeFiles/Playground_exec_1.dir/unit_1/Namespaces.cpp.obj.modmap	c8f72c4a88d2c0f2
+163	532	7666787088951913	CMakeFiles/Playground_exec_1.dir/unit_1/Namespaces.cpp.obj	8c01956260a26dd3
+556	657	7666793857970444	Playground_exec_1.exe	502dc35c6a6999ed
+5	145	7666808160602095	CMakeFiles/C_C__.dir/unit_1/Namespaces.cpp.obj.ddi	b05e8447a012e46d
+6	29	7668496693787219	CMakeFiles/C_C__.dir/unit_1/Namespaces.cpp.obj.modmap	427620ab4c6f6c7a
+169	546	7666808162233499	CMakeFiles/C_C__.dir/unit_1/Namespaces.cpp.obj	3a07207c55e6af11
+6	150	7668472510115398	CMakeFiles/Playground_exec_2.dir/unit_2/playground_2.cpp.obj.ddi	cd3c37c73dcfe58a
+150	175	7668472511560666	CMakeFiles/Playground_exec_2.dir/CXX.dd	e1f89817081bc134
+150	175	7668472511560666	CMakeFiles/Playground_exec_2.dir/unit_2/playground_2.cpp.obj.modmap	e1f89817081bc134
+588	691	7668472515932347	Playground_exec_2.exe	d6d4ea72e8deaa0
+10	153	7667671895148391	CMakeFiles/Playground_exec_2.dir/unit_2/Solution.cpp.obj.ddi	bc2ba939fec9ae4f
+150	175	7668472511560666	CMakeFiles/Playground_exec_2.dir/unit_2/Solution.cpp.obj.modmap	e1f89817081bc134
+7	148	7668494417413997	CMakeFiles/C_C__.dir/unit_3/playground_3.cpp.obj.ddi	3d50edf2bfa3d2d
+148	173	7668494418824313	CMakeFiles/C_C__.dir/unit_3/playground_3.cpp.obj.modmap	966bed9c6a944d17
+174	585	7668494419084368	CMakeFiles/C_C__.dir/unit_3/playground_3.cpp.obj	2669e3f1ada55c3f
+5	186	7671918646505025	CMakeFiles/Playground_exec_3.dir/unit_3/playground_3.cpp.obj.ddi	e022d15030f70060
+186	218	7671918648605879	CMakeFiles/Playground_exec_3.dir/CXX.dd	2c00713c5223f1e4
+186	218	7671918648605879	C:/Users/Lingling/Desktop/IT/Programs/C C++/CppForDummies/cmake-build-debug/CMakeFiles/Playground_exec_3.dir/CXXModules.json	2c00713c5223f1e4
+186	218	7671918648605879	CMakeFiles/Playground_exec_3.dir/unit_3/playground_3.cpp.obj.modmap	2c00713c5223f1e4
+219	887	7671918648644966	CMakeFiles/Playground_exec_3.dir/unit_3/playground_3.cpp.obj	8dcdd9cc9fe9eb57
+888	1259	7671918655333674	Playground_exec_3.exe	c80a002b44e879df

@@ -27,7 +27,235 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f35726d5-e76c-46d7-b393-8f9e01d4ed08" name="Changes" comment="finished unit 3" />
+    <list default="true" id="f35726d5-e76c-46d7-b393-8f9e01d4ed08" name="Changes" comment="finished unit 3">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-082778b571e22139d3e2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-c0c593ae2eb6499d5530.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-e4cd778708cdf48a1cb3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2025-04-24T09-49-52-0271.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-C_C__-Debug-e29487e5f8ff386212bf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Playground_exec_1-Debug-694e6b67cd0828fd7634.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Playground_exec_2-Debug-aad8b4f959c38f0a90c2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Playground_exec_3-Debug-fc378db0e77342c9454a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-5424243a936d8f7d3d01.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.30.5/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.30.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.30.5/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.30.5/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.30.5/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.30.5/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.30.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.30.5/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_C__.dir/CXX.dd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_C__.dir/CXXDependInfo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_C__.dir/CXXModules.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_C__.dir/main.cpp.ddi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_C__.dir/main.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_C__.dir/main.cpp.obj.ddi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_C__.dir/main.cpp.obj.ddi.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_C__.dir/main.cpp.obj.ddi.i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_C__.dir/main.cpp.obj.modmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_C__.dir/unit_1/Namespaces.cpp.ddi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_C__.dir/unit_1/Namespaces.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_C__.dir/unit_1/Namespaces.cpp.obj.ddi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_C__.dir/unit_1/Namespaces.cpp.obj.ddi.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_C__.dir/unit_1/Namespaces.cpp.obj.ddi.i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_C__.dir/unit_1/Namespaces.cpp.obj.modmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_C__.dir/unit_3/playground_3.cpp.ddi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_C__.dir/unit_3/playground_3.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_C__.dir/unit_3/playground_3.cpp.obj.ddi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_C__.dir/unit_3/playground_3.cpp.obj.ddi.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_C__.dir/unit_3/playground_3.cpp.obj.ddi.i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_C__.dir/unit_3/playground_3.cpp.obj.modmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Playground_exec_1.dir/CXX.dd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Playground_exec_1.dir/CXXDependInfo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Playground_exec_1.dir/CXXModules.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Playground_exec_1.dir/unit_1/Namespaces.cpp.ddi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Playground_exec_1.dir/unit_1/Namespaces.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Playground_exec_1.dir/unit_1/Namespaces.cpp.obj.ddi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Playground_exec_1.dir/unit_1/Namespaces.cpp.obj.ddi.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Playground_exec_1.dir/unit_1/Namespaces.cpp.obj.ddi.i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Playground_exec_1.dir/unit_1/Namespaces.cpp.obj.modmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Playground_exec_1.dir/unit_1/playground_1.cpp.ddi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Playground_exec_1.dir/unit_1/playground_1.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Playground_exec_1.dir/unit_1/playground_1.cpp.obj.ddi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Playground_exec_1.dir/unit_1/playground_1.cpp.obj.ddi.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Playground_exec_1.dir/unit_1/playground_1.cpp.obj.ddi.i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Playground_exec_1.dir/unit_1/playground_1.cpp.obj.modmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Playground_exec_2.dir/CXX.dd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Playground_exec_2.dir/CXXDependInfo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Playground_exec_2.dir/CXXModules.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Playground_exec_2.dir/unit_2/Solution.cpp.ddi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Playground_exec_2.dir/unit_2/Solution.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Playground_exec_2.dir/unit_2/Solution.cpp.obj.ddi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Playground_exec_2.dir/unit_2/Solution.cpp.obj.ddi.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Playground_exec_2.dir/unit_2/Solution.cpp.obj.ddi.i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Playground_exec_2.dir/unit_2/Solution.cpp.obj.modmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Playground_exec_2.dir/unit_2/playground_2.cpp.ddi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Playground_exec_2.dir/unit_2/playground_2.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Playground_exec_2.dir/unit_2/playground_2.cpp.obj.ddi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Playground_exec_2.dir/unit_2/playground_2.cpp.obj.ddi.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Playground_exec_2.dir/unit_2/playground_2.cpp.obj.ddi.i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Playground_exec_2.dir/unit_2/playground_2.cpp.obj.modmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Playground_exec_3.dir/CXX.dd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Playground_exec_3.dir/CXXDependInfo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Playground_exec_3.dir/CXXModules.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Playground_exec_3.dir/unit_3/playground_3.cpp.ddi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Playground_exec_3.dir/unit_3/playground_3.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Playground_exec_3.dir/unit_3/playground_3.cpp.obj.ddi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Playground_exec_3.dir/unit_3/playground_3.cpp.obj.ddi.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Playground_exec_3.dir/unit_3/playground_3.cpp.obj.ddi.i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Playground_exec_3.dir/unit_3/playground_3.cpp.obj.modmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/C_C__.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Playground_exec_1.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Playground_exec_2.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Playground_exec_3.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_2.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_3.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit_1/CQ.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit_1/Namespaces.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit_1/Namespaces.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit_1/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit_1/playground_1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit_2/CQ.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit_2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit_2/Solution.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit_2/Solution.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit_2/playground_2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit_3/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit_3/playground_3.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/C C++.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/C C++.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/.idea/C C++.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/.idea/editor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/.cmake/api/v1/reply/cache-v2-082778b571e22139d3e2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-c0c593ae2eb6499d5530.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-e383f0606c564b2b734a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/.cmake/api/v1/reply/index-2025-04-19T11-39-28-0644.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/.cmake/api/v1/reply/target-C_C__-Debug-e29487e5f8ff386212bf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/.cmake/api/v1/reply/target-Playground_exec_1-Debug-694e6b67cd0828fd7634.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/.cmake/api/v1/reply/target-Playground_exec_2-Debug-aad8b4f959c38f0a90c2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-5424243a936d8f7d3d01.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/3.30.5/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/3.30.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/3.30.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/3.30.5/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/3.30.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/3.30.5/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/3.30.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/3.30.5/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/C_C__.dir/CXX.dd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/C_C__.dir/CXXDependInfo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/C_C__.dir/CXXModules.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/C_C__.dir/main.cpp.ddi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/C_C__.dir/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/C_C__.dir/main.cpp.obj.ddi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/C_C__.dir/main.cpp.obj.ddi.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/C_C__.dir/main.cpp.obj.ddi.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/C_C__.dir/main.cpp.obj.modmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/C_C__.dir/unit_1/Namespaces.cpp.ddi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/C_C__.dir/unit_1/Namespaces.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/C_C__.dir/unit_1/Namespaces.cpp.obj.ddi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/C_C__.dir/unit_1/Namespaces.cpp.obj.ddi.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/C_C__.dir/unit_1/Namespaces.cpp.obj.ddi.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/C_C__.dir/unit_1/Namespaces.cpp.obj.modmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/Playground_exec_1.dir/CXX.dd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/Playground_exec_1.dir/CXXDependInfo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/Playground_exec_1.dir/CXXModules.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/Playground_exec_1.dir/unit_1/Namespaces.cpp.ddi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/Playground_exec_1.dir/unit_1/Namespaces.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/Playground_exec_1.dir/unit_1/Namespaces.cpp.obj.ddi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/Playground_exec_1.dir/unit_1/Namespaces.cpp.obj.ddi.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/Playground_exec_1.dir/unit_1/Namespaces.cpp.obj.ddi.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/Playground_exec_1.dir/unit_1/Namespaces.cpp.obj.modmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/Playground_exec_1.dir/unit_1/playground_1.cpp.ddi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/Playground_exec_1.dir/unit_1/playground_1.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/Playground_exec_1.dir/unit_1/playground_1.cpp.obj.ddi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/Playground_exec_1.dir/unit_1/playground_1.cpp.obj.ddi.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/Playground_exec_1.dir/unit_1/playground_1.cpp.obj.ddi.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/Playground_exec_1.dir/unit_1/playground_1.cpp.obj.modmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/Playground_exec_2.dir/CXX.dd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/Playground_exec_2.dir/CXXDependInfo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/Playground_exec_2.dir/CXXModules.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/Playground_exec_2.dir/unit_2/Solution.cpp.ddi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/Playground_exec_2.dir/unit_2/Solution.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/Playground_exec_2.dir/unit_2/Solution.cpp.obj.ddi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/Playground_exec_2.dir/unit_2/Solution.cpp.obj.ddi.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/Playground_exec_2.dir/unit_2/Solution.cpp.obj.ddi.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/Playground_exec_2.dir/unit_2/Solution.cpp.obj.modmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/Playground_exec_2.dir/unit_2/playground_2.cpp.ddi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/Playground_exec_2.dir/unit_2/playground_2.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/Playground_exec_2.dir/unit_2/playground_2.cpp.obj.ddi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/Playground_exec_2.dir/unit_2/playground_2.cpp.obj.ddi.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/Playground_exec_2.dir/unit_2/playground_2.cpp.obj.ddi.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/Playground_exec_2.dir/unit_2/playground_2.cpp.obj.modmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/C_C__.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/Playground_exec_1.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/Playground_exec_2.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/playground_2.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/unit_1/CQ.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/unit_1/Namespaces.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/unit_1/Namespaces.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/unit_1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/unit_1/playground_1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/unit_2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/unit_2/Solution.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/unit_2/Solution.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppForDummies/unit_2/playground_2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibrayExercise/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../LibrayExercise/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +267,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -66,24 +295,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lingling/Desktop/IT/Programs/C C++/CppForDummies&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Lingling/Desktop/IT/Programs/C C++/main.cpp&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.west.config.association.type.startup.service": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "dev__branch",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Lingling/Desktop/IT/Programs/C C++/CppForDummies",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Lingling/Desktop/IT/Programs/C C++/main.cpp",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -94,6 +326,7 @@
       <updated>1744921189591</updated>
       <workItem from="1744921190886" duration="165000" />
       <workItem from="1745490639607" duration="1000" />
+      <workItem from="1745490649905" duration="477000" />
     </task>
     <servers />
   </component>

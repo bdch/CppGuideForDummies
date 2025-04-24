@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "C_C__",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "C_C__::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-C_C__-Debug-e29487e5f8ff386212bf.json",
+					"name" : "C_C__",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Playground_exec_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Playground_exec_1-Debug-694e6b67cd0828fd7634.json",
+					"name" : "Playground_exec_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Playground_exec_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Playground_exec_2-Debug-aad8b4f959c38f0a90c2.json",
+					"name" : "Playground_exec_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Playground_exec_3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Playground_exec_3-Debug-fc378db0e77342c9454a.json",
+					"name" : "Playground_exec_3",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Lingling/Desktop/IT/Programs/C C++/CppForDummies/cmake-build-debug",
+		"source" : "C:/Users/Lingling/Desktop/IT/Programs/C C++/CppForDummies"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
