@@ -22,3 +22,7 @@ add_executable(Playground_exec_3
         unit_3/playground_3.cpp
 )
 
+add_executable(Playground_exec_4
+        unit_4/playground_4.cpp
+)
+
