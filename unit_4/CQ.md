@@ -49,14 +49,19 @@ The visibility of members. In a class, members are private by default, while in 
 - Where are these instances stored? (3 Points)
 
 ```c++
-#include " Datum.h "
+#include "Datum.h" // darin sei die Klasse Datum definiert
 Datum a;
 int main () {
-    Datum b ;
-    Datum * c = new Datum ();
+    Datum b;
+    Datum* c = new Datum ();
 }
 ```
 
 Solution:
 
-```c++ 
+```c++
+a: global memory, because a is a global variable
+b: stack, because b is a local variable
+c: heap, because c is a pointer to a dynamically allocated object
+```
+
