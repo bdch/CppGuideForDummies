@@ -34,16 +34,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f35726d5-e76c-46d7-b393-8f9e01d4ed08" name="Changes" comment="added unit 4 and CQ">
-      <change afterPath="$PROJECT_DIR$/unit_6/CQ.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit_6/README.md" afterDir="false" />
+    <list default="true" id="f35726d5-e76c-46d7-b393-8f9e01d4ed08" name="Changes" comment="added unit 5 + 6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playground_3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/playground_3.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit_1/CQ.md" beforeDir="false" afterPath="$PROJECT_DIR$/unit_1/CQ.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit_2/CQ.md" beforeDir="false" afterPath="$PROJECT_DIR$/unit_2/CQ.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit_3/playground_3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unit_3/playground_3.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit_4/CQ.md" beforeDir="false" afterPath="$PROJECT_DIR$/unit_4/CQ.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit_6/CQ.md" beforeDir="false" afterPath="$PROJECT_DIR$/unit_6/CQ.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit_6/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/unit_6/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +160,7 @@
       <workItem from="1746783830044" duration="4390000" />
       <workItem from="1747665408403" duration="2070000" />
       <workItem from="1748167049939" duration="4621000" />
-      <workItem from="1748601136228" duration="4882000" />
+      <workItem from="1748601136228" duration="5834000" />
     </task>
     <task id="LOCAL-00001" summary="added unit 4 and CQ">
       <option name="closed" value="true" />
@@ -176,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746788554138</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added unit 5 + 6">
+      <option name="closed" value="true" />
+      <created>1748606130812</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1748606130812</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +214,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added unit 4 and CQ" />
-    <option name="LAST_COMMIT_MESSAGE" value="added unit 4 and CQ" />
+    <MESSAGE value="added unit 5 + 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="added unit 5 + 6" />
   </component>
 </project>

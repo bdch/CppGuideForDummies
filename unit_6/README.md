@@ -13,3 +13,39 @@ The preprocessor for a `include` directive replaces the directive with the conte
 This means that, this `#include<Datum.h>` is being searched locally in the current directory and then in the system directories.
 And this `#include "Datum"` is bein looked in system directories like the ? `STL`.
 The syntax of files are not checked, only copied. The checking does the compiler.
+
+### Compiler and Linker
+
+TODO
+
+### Header Guards
+
+A header guard is a mechanism used to prevent multiple inclusions of the same header file in a single translation unit. This is important to avoid redefinition errors and to reduce compilation time.
+
+```c++
+#include "Datum.h"
+#include "Datum.h"  // twice
+```
+
+This will cause : `error: redefinition of class 'Datum'`
+
+This is with header guards:
+```c++
+#ifndef DATUM_H
+#define DATUM_H
+
+class Datum {
+  // ...
+};
+
+#endif
+```
+
+In moder C++ we can use `#pragma once` to achieve the same effect:
+
+```c++
+#pragma once
+class Datum {
+  // ...
+};
+```
