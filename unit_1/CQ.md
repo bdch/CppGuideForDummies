@@ -53,7 +53,7 @@ Give to each of the 4 elemental data type a literal. (4 Points)
 
 What is the type of the following literal: "Hello World". (4 Points)
 
-- char value[] aka char array
+- const char* aka string literal
 
 How can you define a `String` variable with "Hello World"? (2 Points)
 

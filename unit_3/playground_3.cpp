@@ -3,13 +3,17 @@
 //
 #include <iomanip>
 #include <iostream>
+#include <map>
 
 using namespace std;
 
 int main()
 {
-    cout << setw(5) << 2 << '\n';
-    cout << setw(5) << 3 << '\n';
-    cout << setw(5) << 4 << '\n';
-    std::cout.fill('_');
+
+    map<int, string>m;
+    int key = 1;
+
+    if (m.find(key) == m.end()) {}
+
+
 }

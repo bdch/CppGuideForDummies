@@ -1,4 +1,13 @@
 "C:\Program Files\JetBrains\CLion 2024.3.5\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.3.5/bin/ninja/win/x64/ninja.exe" -G Ninja -S "C:\Users\Lingling\Desktop\IT\Programs\C C++\CppForDummies" -B "C:\Users\Lingling\Desktop\IT\Programs\C C++\CppForDummies\cmake-build-debug"
--- Configuring done (1.6s)
--- Generating done (0.9s)
--- Build files have been written to: C:/Users/Lingling/Desktop/IT/Programs/C C++/CppForDummies/cmake-build-debug
+-- Configuring done (0.2s)
+CMake Error at CMakeLists.txt:29 (add_executable):
+  Cannot find source file:
+
+    unit_4/playground_5.cpp
+
+
+CMake Error at CMakeLists.txt:29 (add_executable):
+  No SOURCES given to target: Playground_exec_5
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
