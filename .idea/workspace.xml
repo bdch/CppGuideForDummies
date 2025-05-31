@@ -34,10 +34,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f35726d5-e76c-46d7-b393-8f9e01d4ed08" name="Changes" comment="added unit 5 + 6">
+    <list default="true" id="f35726d5-e76c-46d7-b393-8f9e01d4ed08" name="Changes" comment="finished unit 6">
+      <change afterPath="$PROJECT_DIR$/unit_7/CQ.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit_6/CQ.md" beforeDir="false" afterPath="$PROJECT_DIR$/unit_6/CQ.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit_6/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/unit_6/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,30 +81,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "C/C++ File.playground_3.cpp.executor": "Run",
-    "C/C++ File.playground_4.cpp.executor": "Run",
-    "C/C++ File.playground_5.cpp.executor": "Run",
-    "RunOnceActivity.RadMigrateCodeStyle": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.west.config.association.type.startup.service": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "dev__branch",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Programs/Projects/Zen-browser",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/Lingling/Desktop/IT/Programs/C C++/main.cpp",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;C/C++ File.playground_3.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.playground_4.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.playground_5.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev__branch&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Programs/Projects/Zen-browser&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Lingling/Desktop/IT/Programs/C C++/main.cpp&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="C/C++ File.playground_3.cpp">
     <configuration name="Playground_exec_4" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_C__" TARGET_NAME="Playground_exec_4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_C__" RUN_TARGET_NAME="Playground_exec_4">
       <method v="2">
@@ -160,7 +159,8 @@
       <workItem from="1746783830044" duration="4390000" />
       <workItem from="1747665408403" duration="2070000" />
       <workItem from="1748167049939" duration="4621000" />
-      <workItem from="1748601136228" duration="5834000" />
+      <workItem from="1748601136228" duration="6872000" />
+      <workItem from="1748681924778" duration="1111000" />
     </task>
     <task id="LOCAL-00001" summary="added unit 4 and CQ">
       <option name="closed" value="true" />
@@ -178,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748606130812</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="finished unit 6">
+      <option name="closed" value="true" />
+      <created>1748607283664</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1748607283664</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +223,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added unit 4 and CQ" />
     <MESSAGE value="added unit 5 + 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="added unit 5 + 6" />
+    <MESSAGE value="finished unit 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished unit 6" />
   </component>
 </project>
