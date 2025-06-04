@@ -2,54 +2,40 @@
 // Created by Lingling on 25.05.2025.
 //
 #include <iostream>
+#include <memory>
 using namespace std;
 
-class A
-{
-public:
-    virtual ~A() = default;
-    virtual void f() const { cout << "A\n"; }
-};
 
-class B final : public A
-{
-public:
-    void f() const override { cout << "B\n"; }
-};
 
-class C : public A
-{
-public:
-    void f() const override { cout << "C\n"; }
-};
 
-class D final : public C
-{
-public:
-    void f() const override;
-};
+int foo();
 
-void D::f() const
+int foo()
 {
-    cout << "D\n";
+    throw "An error occurred";
+    cout << foo() << endl;
+    throw int(1);
 }
 
-class E : public A
-{
+class Date {
+
+    Date(int year, int month, int day)
+    {
+        this->year = year;
+        this->month = month;
+        this->day = day;
+    }
+
+    int year;
+    int month;
+    int day;
 };
 
-class F final : public E
-{
-public:
-    void f() const override { cout << "F\n"; }
-};
 
 int main()
 {
-    A a;
-    B b;
-    C c;
-    D d;
-    E e;
-    F f;
+
+    Date d (2, 3, 4);
+
+
 }

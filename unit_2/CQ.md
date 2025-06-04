@@ -19,9 +19,9 @@ When did the first C++ standard appear? (1 Point)
 
 Name three different C++ standards. (3 Points)
 
-- C++98
 - C++03
 - C++11
+- C++14
 
 Which 4 programming styles are featured in C++? (4 Points)
 
@@ -126,7 +126,7 @@ int main () {
 Solution:
 
 ```
-A
+D A B C B C C D D
 ```
 
 Where is auto being used? Give an example. (4 Points)
@@ -145,6 +145,94 @@ How is `string` being converted to `int`? Give an example. (4 Points)
 ```
 std::string str = "42";
 stoi(str); // str is converted to int
+```
+
+Write a code snippet that takes keyboard input, stores it in a variable.
+The input gets completed when the RETURN key is pressed. (3 Points)
+
+```c++
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    string input;
+    cout << "Bitte gib etwas ein und drücke RETURN: ";
+    getline(cin, input);  // waits for RETURN key
+    cout << "Du hast eingegeben: " << input << endl;
+}
+
+```
+
+Write a code snippet that inits a `string` variable "hello" and change to "Hallo" (4P)
+
+```c++
+
+int main() {
+string str = "hallo";
+string str2 = "Hallo";
+str = str2; // Change "hallo" to "Hallo" 
+}
+
+```
+
+What happens at the following code snippet during runtime? (2 Points)
+
+```c++
+std :: vector < int > v = {1 ,2 ,3};
+v [4] = 5;
+```
+
+- Solution:
+  This will cause a runtime error, since there is no index 4 in the vector `v`. The valid indices for `v` are 0, 1, and
+  2. Attempting to access an out-of-bounds index will lead to undefined behavior or a crash.
+
+Write a code snippet that checks the range of the 3rd element of a vector. (3 Points)
+
+```c++
+
+#include <iostream>
+#include <vector>
+
+int main() {
+
+    vector<int> v = {1, 2, 3, 4, 5};
+    
+    if(v.size() > 2) { 
+        std::cout << "The 3rd element is: " << v[2] << std::endl;
+    } else {
+        std::cout << "The 3rd element does not exist." << std::endl;
+    
+    }
+
+}
+```
+
+Write a code snippet that checks if a certain key is contained in a map. (2 Points)
+
+```c++
+#include <iostream>
+#include <map>
+#include <string>
+using namespace std;
+
+
+
+int main() {
+
+    map<string, int> myMap = {{"apple", 1}, {"banana", 2}, {"cherry", 3}};
+    string keyToCheck = "banana";
+
+    if (myMap.find(keyToCheck) != myMap.end()) {
+        cout << "Key '" << keyToCheck << "' is found in the map." << endl;
+    } else {
+        cout << "Key '" << keyToCheck << "' is not found in the map." << endl;
+    }
+
+    return 0;
+
+}
+
 ```
 
 Explain the concept of `iterators`. (2 Points)

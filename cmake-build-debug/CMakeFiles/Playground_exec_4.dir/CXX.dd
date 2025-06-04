@@ -1,0 +1,3 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/Playground_exec_4.dir/unit_4/playground_4.cpp.obj: dyndep
+
