@@ -8,7 +8,6 @@
     <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
     <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="3" type="long" />
-    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexRemoved" />
   </component>
   <component name="CMakePresetLoader">{
   &quot;useNewFormat&quot;: true
@@ -21,6 +20,7 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
+      <config projectName="C_C__" targetName="Playground_exec_5" />
       <config projectName="C_C__" targetName="Playground_exec_1" />
       <config projectName="C_C__" targetName="Playground_exec_2" />
       <config projectName="C_C__" targetName="Playground_exec_3" />
@@ -34,9 +34,27 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f35726d5-e76c-46d7-b393-8f9e01d4ed08" name="Changes" comment="finished unit 6">
-      <change afterPath="$PROJECT_DIR$/unit_7/CQ.md" afterDir="false" />
+    <list default="true" id="f35726d5-e76c-46d7-b393-8f9e01d4ed08" name="Changes" comment="finished unit_7 CQ">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-9c069ef40e11fd396ad9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2025-05-19T14-36-55-0934.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground_2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/playground_2.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground_3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/playground_3.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit_1/playground_1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unit_1/playground_1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit_2/CQ.md" beforeDir="false" afterPath="$PROJECT_DIR$/unit_2/CQ.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit_2/playground_2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unit_2/playground_2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit_3/playground_3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unit_3/playground_3.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit_4/CQ.md" beforeDir="false" afterPath="$PROJECT_DIR$/unit_4/CQ.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit_4/playground_4.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unit_4/playground_4.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit_5/playground_5.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unit_5/playground_5.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,9 +101,12 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;C/C++ File.playground_1.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.playground_2.cpp.executor&quot;: &quot;Run&quot;,
     &quot;C/C++ File.playground_3.cpp.executor&quot;: &quot;Run&quot;,
     &quot;C/C++ File.playground_4.cpp.executor&quot;: &quot;Run&quot;,
     &quot;C/C++ File.playground_5.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.Playground_exec_4.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
@@ -105,10 +126,27 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="C/C++ File.playground_3.cpp">
+  <component name="RunManager" selected="C/C++ File.playground_2.cpp">
     <configuration name="Playground_exec_4" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_C__" TARGET_NAME="Playground_exec_4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_C__" RUN_TARGET_NAME="Playground_exec_4">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Playground_exec_5" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_C__" TARGET_NAME="Playground_exec_5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_C__" RUN_TARGET_NAME="Playground_exec_5">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="playground_1.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_C__" TARGET_NAME="playground_1.cpp" CONFIG_NAME="playground_1.cpp">
+      <option name="sourceFile" value="unit_1\playground_1.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="playground_2.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_C__" TARGET_NAME="playground_2.cpp" CONFIG_NAME="playground_2.cpp">
+      <option name="sourceFile" value="unit_2\playground_2.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="playground_3.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_C__" TARGET_NAME="playground_3.cpp" CONFIG_NAME="playground_3.cpp">
@@ -130,14 +168,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="C/C++ File.playground_1.cpp" />
+      <item itemvalue="C/C++ File.playground_2.cpp" />
       <item itemvalue="C/C++ File.playground_3.cpp" />
       <item itemvalue="C/C++ File.playground_5.cpp" />
       <item itemvalue="C/C++ File.playground_4.cpp" />
       <item itemvalue="CMake Application.Playground_exec_4" />
+      <item itemvalue="CMake Application.Playground_exec_5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.playground_2.cpp" />
         <item itemvalue="C/C++ File.playground_3.cpp" />
+        <item itemvalue="C/C++ File.playground_1.cpp" />
         <item itemvalue="C/C++ File.playground_5.cpp" />
         <item itemvalue="C/C++ File.playground_4.cpp" />
       </list>
@@ -160,7 +203,10 @@
       <workItem from="1747665408403" duration="2070000" />
       <workItem from="1748167049939" duration="4621000" />
       <workItem from="1748601136228" duration="6872000" />
-      <workItem from="1748681924778" duration="1111000" />
+      <workItem from="1748681924778" duration="4291000" />
+      <workItem from="1748779700223" duration="1604000" />
+      <workItem from="1748851522538" duration="1329000" />
+      <workItem from="1749031521770" duration="3000" />
     </task>
     <task id="LOCAL-00001" summary="added unit 4 and CQ">
       <option name="closed" value="true" />
@@ -186,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748607283664</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="finished unit_7 CQ">
+      <option name="closed" value="true" />
+      <created>1748683150054</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1748683150054</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +278,7 @@
     <MESSAGE value="added unit 4 and CQ" />
     <MESSAGE value="added unit 5 + 6" />
     <MESSAGE value="finished unit 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished unit 6" />
+    <MESSAGE value="finished unit_7 CQ" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished unit_7 CQ" />
   </component>
 </project>

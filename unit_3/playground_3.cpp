@@ -4,16 +4,31 @@
 #include <iomanip>
 #include <iostream>
 #include <map>
+#include<vector>
 
 using namespace std;
 
 int main()
 {
 
-    map<int, string>m;
-    int key = 1;
+    string foo;
+    getline(cin, foo);
+    cout << foo << endl;
 
-    if (m.find(key) == m.end()) {}
+    vector<string> v;
+    if (v.size() > 2)
+    {
+        cout << v[2] << endl;
+    }
+
+    int keyToCheck = 0;
+    map<int, string> m;
+    if (m.find(keyToCheck) != m.end())
+    {
+        cout << m[keyToCheck] << endl;
+    }
+
+
 
 
 }

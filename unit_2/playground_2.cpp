@@ -9,11 +9,10 @@ ostream operator<<(const ostream& lhs, const type_info& rhs);
 
 int main()
 {
-    constexpr int a = 5;
-    constexpr int b = 10;
-    Solution::fn(a, b);
-
-    Solution::loop();
-    Solution::isEven();
-
+    const int x = 5;
+    int y;
+    cout << "Enter an integer: ";
+    cin >> y;
+    const int z = y + x;
+    cout << z << endl;
 }

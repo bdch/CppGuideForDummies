@@ -19,9 +19,9 @@ When did the first C++ standard appear? (1 Point)
 
 Name three different C++ standards. (3 Points)
 
-- C++98
 - C++03
 - C++11
+- C++14
 
 Which 4 programming styles are featured in C++? (4 Points)
 
@@ -126,7 +126,7 @@ int main () {
 Solution:
 
 ```
-D A B C B C D D
+D A B C B C C D D
 ```
 
 Where is auto being used? Give an example. (4 Points)

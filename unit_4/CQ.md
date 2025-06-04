@@ -24,7 +24,7 @@ Solution:
 Bad design. Instead of struct we should use typedef or using. Therefor we have a type. Struct is a stupid container and we no
 logic to check the values. We can have a date with month 13 or day 32. We should use a class with private members and public
 
-typedef struct date {
+typedef struct date { // or class
     int year;
     int month;
     int day;
@@ -90,6 +90,9 @@ using namespace std;
     
     // This above can also be to
     auto c = make_unique<Datum>(); // This will automatically delete the object when it goes out of scope.
+    
+    // or do
+    Datum c = Datum(); // This will create a local object on the stack, which will be automatically deleted when it goes out of scope.
     }
 ```
 
